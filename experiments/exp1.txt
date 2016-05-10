@@ -1,0 +1,87 @@
+vm2 | time: 1462868564.19, clockValue:1  internal event
+vm0 | time: 1462868564.19, clockValue:1  internal event
+vm1 | time: 1462868564.19, clockValue:1  internal event
+vm2 | time: 1462868565.19, clockValue:2  internal event
+vm2 | time: 1462868566.2, clockValue:3  sent message to 2
+vm2 | time: 1462868567.2, clockValue:4  sent message to both
+vm1 | time: 1462868568.2, clockValue:4  got message. additional messages: 1
+vm2 | time: 1462868568.2, clockValue:5  internal event
+vm0 | time: 1462868569.19, clockValue:5  got message. additional messages: 0
+vm2 | time: 1462868569.2, clockValue:6  sent message to 2
+vm2 | time: 1462868570.2, clockValue:7  sent message to both
+vm2 | time: 1462868571.2, clockValue:8  internal event
+vm1 | time: 1462868572.2, clockValue:5  got message. additional messages: 2
+vm2 | time: 1462868572.2, clockValue:9  internal event
+vm2 | time: 1462868573.2, clockValue:10  internal event
+vm0 | time: 1462868574.2, clockValue:8  got message. additional messages: 0
+vm2 | time: 1462868574.21, clockValue:11  internal event
+vm2 | time: 1462868575.21, clockValue:12  internal event
+vm1 | time: 1462868576.2, clockValue:7  got message. additional messages: 1
+vm2 | time: 1462868576.21, clockValue:13  internal event
+vm2 | time: 1462868577.21, clockValue:14  sent message to 2
+vm2 | time: 1462868578.21, clockValue:15  internal event
+vm0 | time: 1462868579.2, clockValue:8  internal event
+vm2 | time: 1462868579.21, clockValue:16  internal event
+vm1 | time: 1462868580.2, clockValue:8  got message. additional messages: 1
+vm2 | time: 1462868580.21, clockValue:17  sent message to both
+vm2 | time: 1462868581.21, clockValue:18  internal event
+vm2 | time: 1462868582.22, clockValue:19  sent message to 1
+vm2 | time: 1462868583.22, clockValue:20  sent message to 2
+vm0 | time: 1462868584.2, clockValue:18  got message. additional messages: 1
+vm1 | time: 1462868584.2, clockValue:15  got message. additional messages: 2
+vm2 | time: 1462868584.22, clockValue:21  sent message to 2
+vm2 | time: 1462868585.22, clockValue:22  internal event
+vm2 | time: 1462868586.22, clockValue:23  sent message to both
+vm2 | time: 1462868587.22, clockValue:24  internal event
+vm1 | time: 1462868588.2, clockValue:18  got message. additional messages: 3
+vm2 | time: 1462868588.22, clockValue:25  sent message to 2
+vm0 | time: 1462868589.2, clockValue:20  got message. additional messages: 1
+vm2 | time: 1462868589.23, clockValue:26  internal event
+vm2 | time: 1462868590.23, clockValue:27  internal event
+vm2 | time: 1462868591.23, clockValue:28  sent message to both
+vm1 | time: 1462868592.2, clockValue:21  got message. additional messages: 4
+vm2 | time: 1462868592.23, clockValue:29  internal event
+vm2 | time: 1462868593.23, clockValue:30  internal event
+vm0 | time: 1462868594.2, clockValue:24  got message. additional messages: 1
+vm2 | time: 1462868594.23, clockValue:31  internal event
+vm2 | time: 1462868595.23, clockValue:32  sent message to 1
+vm1 | time: 1462868596.2, clockValue:22  got message. additional messages: 3
+vm2 | time: 1462868596.24, clockValue:33  internal event
+vm2 | time: 1462868597.24, clockValue:34  sent message to 1
+vm2 | time: 1462868598.24, clockValue:35  sent message to both
+vm0 | time: 1462868599.2, clockValue:29  got message. additional messages: 3
+vm2 | time: 1462868599.24, clockValue:36  sent message to 1
+vm1 | time: 1462868600.21, clockValue:24  got message. additional messages: 3
+vm2 | time: 1462868600.24, clockValue:37  sent message to 2
+vm2 | time: 1462868601.24, clockValue:38  sent message to both
+vm2 | time: 1462868602.24, clockValue:39  internal event
+vm2 | time: 1462868603.24, clockValue:40  sent message to both
+vm0 | time: 1462868604.2, clockValue:33  got message. additional messages: 5
+vm1 | time: 1462868604.21, clockValue:26  got message. additional messages: 5
+vm2 | time: 1462868604.24, clockValue:41  internal event
+vm2 | time: 1462868605.24, clockValue:42  internal event
+vm2 | time: 1462868606.25, clockValue:43  sent message to 2
+vm2 | time: 1462868607.25, clockValue:44  internal event
+vm1 | time: 1462868608.21, clockValue:29  got message. additional messages: 5
+vm2 | time: 1462868608.25, clockValue:45  sent message to 1
+vm0 | time: 1462868609.2, clockValue:35  got message. additional messages: 5
+vm2 | time: 1462868609.25, clockValue:46  sent message to 2
+vm2 | time: 1462868610.25, clockValue:47  internal event
+vm2 | time: 1462868611.25, clockValue:48  internal event
+vm1 | time: 1462868612.21, clockValue:36  got message. additional messages: 5
+vm2 | time: 1462868612.25, clockValue:49  internal event
+vm2 | time: 1462868613.25, clockValue:50  internal event
+vm0 | time: 1462868614.21, clockValue:36  got message. additional messages: 4
+vm2 | time: 1462868614.25, clockValue:51  internal event
+vm2 | time: 1462868615.25, clockValue:52  sent message to 2
+vm1 | time: 1462868616.21, clockValue:38  got message. additional messages: 5
+vm2 | time: 1462868616.25, clockValue:53  internal event
+vm2 | time: 1462868617.26, clockValue:54  internal event
+vm2 | time: 1462868618.26, clockValue:55  sent message to 1
+vm0 | time: 1462868619.21, clockValue:37  got message. additional messages: 4
+vm2 | time: 1462868619.26, clockValue:56  internal event
+vm1 | time: 1462868620.21, clockValue:39  got message. additional messages: 4
+vm2 | time: 1462868620.26, clockValue:57  internal event
+vm2 | time: 1462868621.26, clockValue:58  internal event
+vm2 | time: 1462868622.26, clockValue:59  internal event
+vm2 | time: 1462868623.26, clockValue:60  internal event

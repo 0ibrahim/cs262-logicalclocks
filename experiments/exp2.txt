@@ -1,0 +1,34 @@
+vm0 | time: 1462869357.57, clockValue:1  internal event
+vm1 | time: 1462869357.57, clockValue:1  internal event
+vm2 | time: 1462869357.57, clockValue:1  internal event
+vm1 | time: 1462869362.57, clockValue:2  internal event
+vm0 | time: 1462869362.57, clockValue:2  internal event
+vm2 | time: 1462869363.57, clockValue:2  internal event
+vm0 | time: 1462869367.57, clockValue:3  internal event
+vm1 | time: 1462869367.57, clockValue:3  internal event
+vm2 | time: 1462869369.58, clockValue:3  sent message to 1
+vm1 | time: 1462869372.57, clockValue:4  internal event
+vm0 | time: 1462869372.57, clockValue:5  got message. additional messages: 0
+vm2 | time: 1462869375.58, clockValue:4  internal event
+vm1 | time: 1462869377.58, clockValue:5  internal event
+vm0 | time: 1462869377.58, clockValue:5  sent message to 2
+vm2 | time: 1462869381.58, clockValue:6  got message. additional messages: 0
+vm1 | time: 1462869382.58, clockValue:6  internal event
+vm0 | time: 1462869382.58, clockValue:6  internal event
+vm1 | time: 1462869387.58, clockValue:7  internal event
+vm0 | time: 1462869387.58, clockValue:7  internal event
+vm2 | time: 1462869387.58, clockValue:6  internal event
+vm0 | time: 1462869392.58, clockValue:8  sent message to both
+vm1 | time: 1462869392.58, clockValue:8  sent message to 1
+vm2 | time: 1462869393.58, clockValue:9  got message. additional messages: 0
+vm0 | time: 1462869397.58, clockValue:10  got message. additional messages: 0
+vm1 | time: 1462869397.58, clockValue:10  got message. additional messages: 0
+vm2 | time: 1462869399.58, clockValue:9  internal event
+vm1 | time: 1462869402.58, clockValue:10  internal event
+vm0 | time: 1462869402.58, clockValue:10  internal event
+vm2 | time: 1462869405.58, clockValue:10  sent message to both
+vm1 | time: 1462869407.58, clockValue:12  got message. additional messages: 0
+vm0 | time: 1462869407.58, clockValue:12  got message. additional messages: 0
+vm2 | time: 1462869411.58, clockValue:11  internal event
+vm1 | time: 1462869412.59, clockValue:12  internal event
+vm0 | time: 1462869412.59, clockValue:12  sent message to 2

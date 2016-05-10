@@ -1,0 +1,37 @@
+vm2 | time: 1462869935.06, clockValue:1  internal event
+vm0 | time: 1462869935.06, clockValue:1  internal event
+vm1 | time: 1462869935.06, clockValue:1  internal event
+vm1 | time: 1462869939.07, clockValue:2  internal event
+vm2 | time: 1462869940.06, clockValue:2  internal event
+vm0 | time: 1462869941.06, clockValue:2  internal event
+vm1 | time: 1462869943.07, clockValue:3  sent message to 1
+vm2 | time: 1462869945.07, clockValue:3  internal event
+vm0 | time: 1462869947.07, clockValue:4  got message. additional messages: 0
+vm1 | time: 1462869947.07, clockValue:4  sent message to 1
+vm2 | time: 1462869950.07, clockValue:4  internal event
+vm1 | time: 1462869951.07, clockValue:5  internal event
+vm0 | time: 1462869953.07, clockValue:5  got message. additional messages: 0
+vm2 | time: 1462869955.07, clockValue:5  internal event
+vm1 | time: 1462869955.07, clockValue:6  internal event
+vm0 | time: 1462869959.07, clockValue:5  internal event
+vm1 | time: 1462869959.07, clockValue:7  internal event
+vm2 | time: 1462869960.07, clockValue:6  internal event
+vm1 | time: 1462869963.07, clockValue:8  internal event
+vm2 | time: 1462869965.07, clockValue:7  internal event
+vm0 | time: 1462869965.07, clockValue:6  sent message to 2
+vm1 | time: 1462869967.07, clockValue:9  internal event
+vm2 | time: 1462869970.07, clockValue:9  got message. additional messages: 0
+vm0 | time: 1462869971.07, clockValue:7  internal event
+vm1 | time: 1462869971.08, clockValue:10  internal event
+vm2 | time: 1462869975.08, clockValue:9  internal event
+vm1 | time: 1462869975.08, clockValue:11  internal event
+vm0 | time: 1462869977.07, clockValue:8  internal event
+vm1 | time: 1462869979.08, clockValue:12  sent message to 2
+vm2 | time: 1462869980.08, clockValue:13  got message. additional messages: 0
+vm0 | time: 1462869983.08, clockValue:9  internal event
+vm1 | time: 1462869983.08, clockValue:13  internal event
+vm2 | time: 1462869985.08, clockValue:13  internal event
+vm1 | time: 1462869987.08, clockValue:14  sent message to 1
+vm0 | time: 1462869989.08, clockValue:15  got message. additional messages: 0
+vm2 | time: 1462869990.08, clockValue:14  sent message to both
+vm1 | time: 1462869991.08, clockValue:16  got message. additional messages: 0

@@ -1,0 +1,77 @@
+CS262 Logical Clocks Assignment Final Notebook
+Ibrahim Sheikh
+
+This is the notebook in which I document the process of 
+writing the code for the logical clocks assignment, 
+performing the experiments and then documenting the
+results.
+
+- I decided to use Python for the implementation since
+it seemed like the most efficient way to do this even
+though there are some arguments against using Python
+for the thread implementation. I found out that by
+changing the way, the threads interact in the assignment
+it was possible to make it very close to how separate
+threads would be implemented perhaps in another lower level
+language like C.
+
+- I grappled with the question of how to simulate the 
+different machines but eventually went with using separate
+threads to simulate machines in Python where each thread
+has a queue that is associated with it. These queue function
+in the same way as a message queue for a distributed system 
+would in real life. 
+
+- I tried making the individual threads using the Python 
+threading library first but turns out it was hard to 
+synchronize them with each other. I had to grapple with
+the threading library and think about locks to synchronize
+resources for threads. 
+
+- It turns out there was an easier way to do this which was
+the python multi-processing library which makes takes care 
+of the synchronization and a lot of other trivial things
+that would be a pain to manage by hand. 
+
+- I wrote my first version of the working code using the 
+multi-processing library and then went on to experiment with
+it. The logs of the experiments can be found in the logs/ 
+directory. I conducted 5 experiments using the same code
+but tweaking some of the parameters. 
+
+A lot of the observations that were made in the experiment
+were similar to the things we have learned about in class
+and in the papers that we have read about logical clocks. Some
+of the key things I noticed which playing around with the 
+experiments:
+
+- Clock drift decreases if the logical clock values are close to
+each other. In experiment 1, it was observed that if the logical
+clock values are the same for each of the three machines the 
+drift decreases. These also lead to shorter queues and variations 
+of the experiment led me to believe that if the logical clock numbers
+tend to drift to the larger number even when the clock values are
+close to each other. 
+
+- I also experimented with having clocks that were of very different
+speeds. For example, for experiment 3, I experimented by using one
+clock that was extremely fast and the other two clocks that were 
+very slow compared to the fast one. It was found that the this leads
+to an increase in queue lengths but the general performance of the
+system is not seriously hampered. This makes sense because the fast
+clock is the odd one out here and it cause more instructions to be
+executed per unit time. The log file is also substantially longer
+for exp3 which correlates with our observations. 
+
+- I ran the next experiment by having two fast clocks and one slow 
+clock. The results showed that the results were not very pronounced
+when we used two slow clocks and one fast clock that was only 2x.
+We saw some real results in exp5 when we used two fast clocks and
+one slow clock that was substantially slower. It was found that
+the slow clock hampers the ability of the system to communicate
+as expected leading to longer queues for messages and more drift.
+
+- These observations helped me put theory into practice and get
+a very detailed understanding of how logical clocks work. The
+experiments can be see in experiment/ and the Python code is in
+logical clocks.py. 
